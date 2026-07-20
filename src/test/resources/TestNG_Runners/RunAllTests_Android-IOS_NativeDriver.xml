@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+
+<suite name="SwagLabs App">
+
+    <test name="Positive Tests Android"> <parameter name="platformName" value="Android"/>
+        <groups>
+            <run>
+                <include name="Positive"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="NativeMobileActions.testCases"/>
+        </packages>
+    </test>
+
+    <test name="Negative Test Android"> <parameter name="platformName" value="Android"/>
+        <groups>
+            <run>
+                <include name="Negative"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="NativeMobileActions.testCases"/>
+        </packages>
+    </test>
+
+    <test name="Positive Tests IOS"> <parameter name="platformName" value="IOS"/>
+        <groups>
+            <run>
+                <include name="Positive"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="NativeMobileActions.testCases"/>
+        </packages>
+    </test>
+
+    <test name="Negative Tests IOS"> <parameter name="platformName" value="IOS"/>
+        <groups>
+            <run>
+                <include name="Negative"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="NativeMobileActions.testCases"/>
+        </packages>
+    </test>
+
+</suite>

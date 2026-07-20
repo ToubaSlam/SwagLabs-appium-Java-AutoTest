@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+
+<suite name="SwagLabs App">
+
+    <test name="Negative Tests"> <parameter name="platformName" value="Android"/>
+
+        <groups>
+            <run>
+                <include name="Negative"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="W3cTouchActions.testCases"/>
+        </packages>
+
+    </test>
+
+</suite>

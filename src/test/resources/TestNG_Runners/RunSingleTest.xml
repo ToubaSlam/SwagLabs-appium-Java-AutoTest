@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+
+<suite name="SwagLabs App">
+
+    <test name="Single Test" enabled="true">
+        <classes>
+            <class name="W3cTouchActions.testCases.LoginTests">
+                <methods>
+                    <include name="loginWithValidUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

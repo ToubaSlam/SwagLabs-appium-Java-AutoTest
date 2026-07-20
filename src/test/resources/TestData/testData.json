@@ -1,0 +1,45 @@
+{
+  "validUser": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "lockedUser": {
+    "username": "locked_out_user",
+    "password": "secret_sauce"
+  },
+  "products": [
+    {
+      "id": "1",
+      "name": "Sauce Labs Bike Light",
+      "price": "9.99",
+      "quantity": "1",
+      "description": "A red light isn\u0027t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included."
+    },
+    {
+      "id": "2",
+      "name": "Sauce Labs Onesie",
+      "price": "7.99",
+      "quantity": "1",
+      "description": "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won\u0027t unravel."
+    },
+    {
+      "id": "3",
+      "name": "Sauce Labs Backpack",
+      "price": "29.99",
+      "quantity": "1",
+      "description": "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."
+    }
+  ],
+  "errorMessages": {
+    "invalidUser": "Username and password do not match any user in this service.",
+    "lockedUser": "Sorry, this user has been locked out.",
+    "emptyFirstName": "First Name is required",
+    "emptyLastName": "Last Name is required",
+    "emptyPostalCode": "Postal Code is required"
+  },
+  "successMessages": {
+    "checkout": "THANK YOU FOR YOU ORDER"
+  },
+  "paymentMethod": "SauceCard #31337",
+  "shippingMethod": "FREE PONY EXPRESS DELIVERY!"
+}
