@@ -135,5 +135,5 @@ MobileAutomation_Appium_SwagLabsApp
 
 **Project Repository**
 
-🔗 https://github.com/HadeerAtef96/MobileAutomation_Appium_SwagLabsApp
+🔗 https://github.com/ToubaSlam/MyQApp-appiumTest
 
