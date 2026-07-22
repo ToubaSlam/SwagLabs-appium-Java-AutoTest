@@ -125,13 +125,13 @@ MobileAutomation_Appium_SwagLabsApp
 
 # 👩‍💻 Author
 
-**Hadeer Atef Abdalla**
+**Islam AlI**
 
-**Mobile Automation Test Engineer**
+**Automation Test Engineer**
 
 **GitHub**
 
-🔗 https://github.com/HadeerAtef96
+🔗 https://github.com/ToubaSlam
 
 **Project Repository**
 
